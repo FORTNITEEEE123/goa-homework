@@ -24,10 +24,9 @@
 
 #num = 120,2
 
-#name1 = "true"
+name1 = "true"
 #print(type(name))
 #print(type(age))
 #print(type(num))
-#print(type(name1)) 
+print(type(name1)) 
 
-print(type(3.0))
