@@ -1,4 +1,4 @@
-
+print("new input")
 # name-->input()
 # surname=input(
 # age=input(lluka)
