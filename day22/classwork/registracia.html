@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის გვერდი</title>
+</head>
+    <body>
+        <h1>რეგისტრაციის ფორმა</h1>
+        <form>
+            <label for="first-name">სახელი:</label>
+            <input type="text" id="first-name" name="first_name" >
+            <br><br>
+    
+            <label for="last-name">გვარი:</label>
+            <input type="text" id="last-name" name="last_name" >
+            <br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            <br><br>
+    
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" >
+            <br><br>
+    
+            <label>სქესი:</label>
+            <label><input type="radio" name="gender" value="male" > მამაკაცი</label>
+            <label><input type="radio" name="gender" value="female"> ქალი</label>
+            <br><br>
+    
+            <label for="country">ქვეყანა:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>- გადარჩიეთ ქვეყანა -</option>
+                <option value="georgia">საქართველო</option>
+                <option value="usa">აშშ</option>
+                <option value="uk">ბრიტანეთი</option>
+                <option value="canada">კანადა</option>
+            </select>
+            <br><br>
+    
+            <input type="submit">
+            <a href="./home.html"><button>დაბრუნდი home გვერდზე</button></a>
+        </form>
+    </body>
+</html>
