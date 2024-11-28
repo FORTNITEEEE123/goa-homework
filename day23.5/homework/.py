@@ -1,1 +1,1 @@
-print("clouldnt make homework")
+print("didnt gave us homework")
