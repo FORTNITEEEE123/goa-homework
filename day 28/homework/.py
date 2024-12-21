@@ -1,0 +1,1 @@
+print("i was sick and didnt do homework")
