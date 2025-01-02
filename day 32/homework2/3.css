@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+
+h1{
+    color:blue
+}
+
+#მაწვნისკერძი{
+    color: white;
+}
+
+ul{
+    color: orange;
+}
+
+#ინგრედიენტები{
+    color: aqua;
+}
+
+#მომზადებისწესი{
+    color: whitesmoke;
+}
+
+p{
+    color: purple;
+}
+
+#ოსპი{
+    color: brown;
+}
+
+#ოსპისშესახებ{
+    color:brown
+}
+
+#ინფორმაცია{
+    color: chartreuse;
+}
