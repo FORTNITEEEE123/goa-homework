@@ -1,0 +1,17 @@
+/* changing background-color */
+body{
+    background-color: black;
+}
+/* changing firsth2 */
+#firsth2{
+    color: purple;
+    background-color:white;
+}
+#secondh2{
+    color:blue;
+    background-color: green;
+}
+p{
+    color: antiquewhite;
+    background-color: aqua;
+}
