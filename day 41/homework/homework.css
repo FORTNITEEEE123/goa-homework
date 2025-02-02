@@ -1,0 +1,13 @@
+#first{
+    font-size: 100px;
+    color: black;
+    text-decoration: green underline  wavy;
+}
+#second{
+    text-decoration:red underline overline dotted ;
+    font-size: 50px;
+}
+#third{
+    text-decoration:blue line-through dotted;
+    font-size: 50px;
+}
