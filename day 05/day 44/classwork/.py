@@ -1,0 +1,1 @@
+print("i did my class work but dont have photos it was codewars")
