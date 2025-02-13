@@ -1,0 +1,10 @@
+a{
+    color: blue;
+    transition: 3s;
+}
+#a1:active{
+    color: rgb(255, 102, 0);
+}
+a:hover{
+    color: chartreuse ;
+}
