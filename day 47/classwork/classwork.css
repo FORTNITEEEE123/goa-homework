@@ -1,0 +1,24 @@
+table,th,td{
+    border: 1px solid ;
+}
+th{
+    background-color: rgb(0, 0, 243);
+    color: white;
+}
+tr:nth-child(odd){
+    background-color:rgb(0, 255, 13);
+}
+tr:nth-child(even){
+    background-color:rgb(255, 0, 0);
+}
+tr{
+    transition: .90s
+}
+tr:hover:nth-child(odd){
+    background-color:rgb(0, 81, 255) ;
+    color: white;
+}
+tr:hover:nth-child(even){
+    background-color:rgb(243, 139, 3) ;
+    color: white;
+}
