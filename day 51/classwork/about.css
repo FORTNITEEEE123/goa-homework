@@ -1,0 +1,10 @@
+nav{
+    background-color: black;;
+    display: flex;
+    justify-content: center ;
+
+}
+p,a{
+    margin: 20px;
+     color: white;
+}

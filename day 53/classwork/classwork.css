@@ -1,0 +1,30 @@
+.parent {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    font-size: 15px;
+    color: white;
+}
+
+.b1 {
+    background-color: red;
+    order: 0;
+}
+
+.b2 {
+    background-color: green;
+    order: -1;
+}
+
+.b3 {
+    background-color: blue;
+    order: 1;
+}
