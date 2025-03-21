@@ -1,0 +1,13 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+  
+  .child {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    flex-grow: 1; 
+}

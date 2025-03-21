@@ -1,0 +1,24 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+  
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+  
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute; 
+    bottom: 40px;
+    left: 0;
+}
