@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#hello{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: animationGOA 5s infinite;
+    animation-delay: 3s;
+}
+  
+@keyframes animationGOA {
+    0% {
+      top: -40px;
+      left: 0;
+      background-color: red;
+    }
+    35% {
+      top: -40px;
+      left: 60px;
+      background-color: green;
+    }
+    65% {
+      top: 0;
+      left: 60px;
+      background-color: yellow;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      background-color: blue;
+    }
+}

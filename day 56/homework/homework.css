@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#div{
+    height: 250px;
+    width: 250px;
+    background: white;
+    border: 10px solid black;
+    transition: 1s;
+}
+#div:hover{
+    background: blue;
+    transform:rotate(360deg) ;
+}

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.blabla {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    animation: slideUp 3s ease-in-out forwards;
+}
+  
+@keyframes slideUp {
+    0% {
+      bottom: 0;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+    }
+    100% {
+      bottom: 80%;
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+}

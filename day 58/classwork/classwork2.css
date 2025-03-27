@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#hiluka {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    animation: abcd 5s infinite;
+    animation-delay: 2s;
+}
+  
+@keyframes abcd {
+    0% {
+      width: 200px;
+      height: 150px;
+      background-color: blue;
+    }
+    100% {
+      transform: scale(2);
+      background-color: orange;
+    }
+}

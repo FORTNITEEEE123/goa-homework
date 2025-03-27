@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(0.5);
+    transform: translate(150px, -200px);
+    border-radius: 50%;
+}

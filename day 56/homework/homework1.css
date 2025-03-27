@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.div1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(139, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.div2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+
+.div1:hover{
+    transform: translate(-250px) scale(2) rotate(-160deg) ;
+    background: rgb(0, 225, 255);
+}
+

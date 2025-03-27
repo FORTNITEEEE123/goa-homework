@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#name{
+    width: 250px;
+    height: 250px;
+    background: black;
+    transition: 2s;
+}
+
+#name:hover{
+    transform: translate(-50px, 100px) scale(2) rotate(-180deg) ;
+    background: blue;
+}

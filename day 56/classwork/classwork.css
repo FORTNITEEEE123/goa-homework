@@ -1,0 +1,10 @@
+
+#id{
+    width: 250px;
+    height: 250px;
+    background: black;
+    transition: 2s;
+}
+#id:hover{
+    background: blue;
+}
