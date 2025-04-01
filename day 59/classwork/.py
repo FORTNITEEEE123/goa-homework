@@ -1,0 +1,1 @@
+print("me and sandro gabuzdashvili did the classwork")
