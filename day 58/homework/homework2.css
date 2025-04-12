@@ -12,10 +12,10 @@ body{
     background-color: red;
     position: absolute;
     bottom: 0;
-    animation: slideUp 3s ease-in-out forwards;
+    animation: ბლბლ 3s  forwards;
 }
   
-@keyframes slideUp {
+@keyframes ბლბლ {
     0% {
       bottom: 0;
       width: 50px;
