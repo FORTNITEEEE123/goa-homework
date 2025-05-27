@@ -1,0 +1,1 @@
+print("idk what happening maybe the codewars server crashed idk")
